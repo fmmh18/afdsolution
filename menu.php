@@ -11,7 +11,7 @@ $menu = $menus->mostrarMenu();
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto">
             <?  foreach ($menu as $key =>$value) { ?>
-            <li class="nav-item">
+            <li class="nav-item" style="text-transform: uppercase;font-weight: bolder">
                 <a class="nav-link text-white text-center" href="<?php echo $value->link; ?>"><?php echo $value->titulo; ?></span></a>
             </li>
             <?  } ?>

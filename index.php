@@ -14,6 +14,22 @@ $servicos = $servico->listarServico();
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23839206-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23839206-2');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-4586128867227436",
+            enable_page_level_ads: true
+        });
+    </script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -28,9 +44,9 @@ $servicos = $servico->listarServico();
 </head>
 <body>
     <div class="col-12 text-white p-2 topo text-right">
-        <span class="pr-3"><a href="https://www.instagram.com/afdsolution/" target="_blank" style="text-decoration: none !important;color: #FFFFFF;"><img src="assets/images/icons/instagram-logo.png"> @afdsolution</a> </span>
+        <span class="pr-3"><a href="https://api.whatsapp.com/send?phone=5565999860124" target="_blank" style="text-decoration: none !important;;color: #FFFFFF;"><img src="assets/images/icons/whatsapp-logo.png"> (65) 99986-0124</a></span>
         <span class="pr-3"><a href="https://www.facebook.com/afdsolution1" target="_blank" style="text-decoration: none!important;;color: #FFFFFF;"><img src="assets/images/icons/facebook-logo.png"> afdsolution1</a> </span>
-        <span><a href="https://api.whatsapp.com/send?phone=5565999860124" target="_blank" style="text-decoration: none !important;;color: #FFFFFF;"><img src="assets/images/icons/whatsapp-logo.png"> (65) 99986-0124</a></span>
+        <span><a href="https://www.instagram.com/afdsolution/" target="_blank" style="text-decoration: none !important;color: #FFFFFF;"><img src="assets/images/icons/instagram-logo.png"> @afdsolution</a> </span>
     </div>
     <?php
     include_once "menu.php";
@@ -120,6 +136,17 @@ $servicos = $servico->listarServico();
         </div>
     </div>
     <div class="col-12">&nbsp;</div>
+    <div class="col-12" id="portifolio" style="background-color: #f7be16">
+        <div class="container mt-5 p-5">
+            <div class="row">
+                <div class="col-10">&nbsp;</div>
+                <div class="col-2 text-white"><b>Redes Sociais:</b><br/><br/>
+                    <a href="https://api.whatsapp.com/send?phone=5565999860124" target="_blank" style="text-decoration: none !important;;color: #FFFFFF;"><img src="assets/images/icons/whatsapp.png"></a>
+                    <a href="https://www.facebook.com/afdsolution1" target="_blank" style="text-decoration: none!important;;color: #FFFFFF;"><img src="assets/images/icons/facebook.png"></a>
+                    <a href="https://www.instagram.com/afdsolution/" target="_blank" style="text-decoration: none !important;color: #FFFFFF;"><img src="assets/images/icons/instagram.png"></a> </div>
+                <div class="col-12 text-center text-white" style="font-size: 12px"><img src="assets/images/logo/logo-somente-imagem-30-1.png"><b>Desenvolvido por AFD Solution.</b> </div>
+            </div>
+        </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
